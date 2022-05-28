@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Java Scritp</title>
+<!-- enlaces bootstrap-->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!--FAVICON-->
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
+<!-- Hoja de estilo propio-->
+    <link href="./style/style.css" rel="stylesheet"></link>
+<!--Fon Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="mifuentetexto2">
+
+
+<!-- BARRA DE NAVEGACIÓN COMPONENTE BOOTSTRAP--> 
+
+
+        <nav class="navbar sticky-top navbar-expand-lg  navbar-light bg-warning">
+          <div class="container-fluid ">
+<!-- Imagen barra navegación-->          
+          <a class="navbar-brand mb-0 h1" href="#">
+            <img src="./images/basefavicon.jpg" alt="imagen de js" width="60" height="60" class="d-inline-block align-text-center"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+      
+<!--Inicio-->
+                <li class="nav-item">
+                  <a class="nav-link active " aria-current="page" href="#hero">Inicio</a>
+                </li>
+
+<!-- GALERIA  -->
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#GALLERY">Galeria</a>
+                </li>
+<!-- "DROPDOWN", NI EL BOTON "DISABLE" EN ESTE CASO LO COMENTO -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Enlaces a los ejercicios
+                  </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li class="dropdown-item">Relación 1  </li>
+                      <li><a class="dropdown-item" href="./ejercicio2/ejercicio2V2.html" target="_blank">Ejercicio número 2 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio3/ejercicio3.html" target="_blank">Ejercicio número 3 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio4/ejercicio4.html" target="_blank">Ejercicio número 4 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio5/ejercicio5.html" target="_blank">Ejercicio número 5 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio6/ejercicio6.html" target="_blank">Ejercicio número 6 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio7/ejercicio7.html" target="_blank">Ejercicio número 7 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio8/ejercicio8.html" target="_blank">Ejercicio número 8 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio9/ejercicio9.html" target="_blank">Ejercicio número 9 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio10/ejercicio10.html" target="_blank">Ejercicio número 10 </a></li>
+                      <li><a class="dropdown-item" ">Relación 2  </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio1r2/ejercicio1r2.html" target="_blank">Ejercicio número 1 </a></li>
+                      <li><a class="dropdown-item" href="./ejercicio2r2/ejercicio2r2.html" target="_blank">Ejercicio número 2 </a></li>
+                    </ul>
+                </li>
+      
+                
+<!--Seccion about me -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">About me</a>
+                </li>
+                    
+                  </div>
+                </div>
+        </nav>
+        <br> <br> <br>
+<!-- SECCION HERO CON CARRUSEL DE BOOTSTRAP-->
+        <section ID="hero">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"><h1 class=" mifuentetitulo mirojo text-center">JAVASCRIPT "EL PORTFOLIO"</h1>
+              <br> <br> <br>
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/meme1.png" class="d-block  m-auto" alt="meme javascript e IT">
+                    <div class="carousel-caption d-none d-md-block mifuentetitulo">
+                      <h5 class="text-warning">JavaScript con humor</h5>
+                
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/meme2.jpg" class="d-block  m-auto" alt="No se lo que he hecho">
+                    <div class="carousel-caption d-none d-md-block mifuentetitulo">
+                      <h5 class="text-warning">programación y humor</h5>
+                 
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/meme3.png" class="d-block  m-auto" alt="Meme Developers-javascript">
+                    <div class="carousel-caption d-none d-md-block mifuentetitulo">
+                      <h5 class="text-warning">Mezclar a lo loco!</h5>
+                   
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/meme4.jpg" class="d-block   m-auto" alt="Why my code doesnt works!!!">
+                    <div class="carousel-caption d-none d-md-block mifuentetitulo">
+                      <h5 class="text-warning">¿Por qué programo?</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </section>
+        <br> <br> <br> <br>
+
+<!--Separator-->
+        <div class="separator"></div>
+<!-- EMPIEZA LA SECTION GALLERY CON SUS 14 CARDS Y SUS MODALES-->
+
+        <section ID="GALLERY" class="p-4">
+            <h2 class="text-center mirojo mifuentetitulo">Todos los ejercicios del PORTFOLIO</h2>
+            <br><br>
+            <div class="container">
+
+                <h2 class=" text-info">Primera Relación de ejercicios (Para abrir, hacer click en la imagen)</h2><br>
+                <div class="row g-5">
+                  
+
+ 
+<!-- Aqui empieza la primera card-->
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio2/ejercicio2V2.html">
+                      <img src="./images/ejer2.webp" class="card-img-top" alt="meme 1 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 2</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div> 
+                 
+<!-- Aqui empieza la segunda card-->                  
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio3/ejercicio3.html">
+                      <img src="./images/eje3.webp" class="card-img-top" alt="meme 2 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 3</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div>
+ <!-- aquí empieza la tercera card-->                   
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio4/ejercicio4.html">
+                      <img src="./images/eje4.webp" class="card-img-top" alt="meme 3 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 4</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div>
+ 
+<!-- aquí empieza la Cuarta card-->                
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio5/ejercicio5.html">
+                      <img src="./images/ejer5.webp" class="card-img-top" alt="meme 4 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 5</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div>             
+
+
+
+  <!-- Fin de la primera fila de cards-->                
+              </div>
+              <br><br>
+
+<!-- Comienza segunda fila de cards-->
+
+
+              <div class="row g-5">
+<!-- Aqui empieza la primera card segunda fila-->
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                  <div class="card h-100" >
+                    <a class="nav-link" href="./ejercicio6/ejercicio6.html">
+                    <img src="./images/eje6.webp" class="card-img-top" alt="meme 5 sobre programación">
+                    </a>
+                    <div class="card-body">
+                      <h3 class="card-title"><b>Ejercicio 6</b></h3>
+                                  
+                    </div>
+                  </div>
+                </div> 
+
+<!-- Aqui empieza la segunda card segunda fila-->                  
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                  <div class="card h-100" >
+                    <a class="nav-link" href="./ejercicio7/ejercicio7.html">
+                    <img src="./images/eje7.webp" class="card-img-top" alt="meme 6 sobre programación">
+                    </a>
+                    <div class="card-body">
+                      <h3 class="card-title"><b>Ejercicio 7</b></h3>
+                                  
+                    </div>
+                  </div>
+                </div>
+<!-- aquí empieza la tercera card segunda fila-->                   
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                  <div class="card h-100" >
+                    <a class="nav-link" href="./ejercicio8/ejercicio8.html">
+                    <img src="./images/ejer8.webp" class="card-img-top" alt="meme 7 sobre programación">
+                    </a>
+                    <div class="card-body">
+                      <h3 class="card-title"><b>Ejercicio 8</b></h3>
+                                  
+                    </div>
+                  </div>
+                </div>
+<!-- aquí empieza la Cuarta card segunda fila-->                
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                  <div class="card h-100" >
+                    <a class="nav-link" href="./ejercicio9/ejercicio9.html">
+                    <img src="./images/eje9.webp" class="card-img-top" alt="meme 8 sobre programación">
+                    </a>
+                    <div class="card-body">
+                      <h3 class="card-title"><b>Ejercicio 9</b></h3>
+                                  
+                    </div>
+                  </div>
+                </div>
+
+<!-- Fin de la segunda fila de cards-->                
+            </div>
+            <br><br>
+
+
+<!-- Comienza tercera fila de cards-->
+
+            <div class="row g-5">
+<!-- Aqui empieza la primera card tercera fila-->
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                  <div class="card h-100" >
+                    <a class="nav-link" href="./ejercicio10/ejercicio10.html">
+                    <img src="./images/eje10.webp" class="card-img-top" alt="meme 9 sobre programación">
+                    </a>
+                    <div class="card-body">
+                      <h3 class="card-title"><b>Ejercicio 10</b></h3>
+                                  
+                    </div>
+                  </div>
+                </div> 
+
+   
+
+
+
+
+<!-- Fin de la tercera fila de cards-->                
+            </div>
+            <br><br>  
+
+
+<!-- Comienza cuarta fila de cards-->
+            <div class="row g-5">
+              <h2 class=" text-info">Seguda Relación de ejercicios (ARBOL DOM)</h2>
+  <!-- Aqui empieza la primera card cuarta fila-->
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio1r2/ejercicio1r2.html">
+                      <img src="./images/eje11.webp" class="card-img-top" alt="meme 10 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 1</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div> 
+   <!-- Aqui empieza la segunda card cuarta fila-->                  
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio2r2/ejercicio2r2.html">
+                      <img src="./images/eje13.webp" class="card-img-top" alt="meme 11 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 2</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div>
+   <!-- aquí empieza la tercera card cuarta fila-->                   
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio3r2/ejercicio3r2.html">
+                      <img src="./images/eje14.webp" class="card-img-top" alt="meme 12 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 3</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div>
+  <!-- aquí empieza la Cuarta card cuarta fila-->                
+                  <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <div class="card h-100" >
+                      <a class="nav-link" href="./ejercicio4r2/ejercicio4r2.html">
+                      <img src="./images/eje15.webp" class="card-img-top" alt="meme 13 sobre programación">
+                      </a>
+                      <div class="card-body">
+                        <h3 class="card-title"><b>Ejercicio 4</b></h3>
+                                    
+                      </div>
+                    </div>
+                  </div>
+  
+  
+  
+  
+  <!-- Fin de la 4 fila de cards-->                
+              </div>
+              <br><br>
+
+
+
+<!-- Fin del div de las  cards-->  
+            </div>
+        </section>
+<!--Separator-->
+        <div class="separator"></div>
+        <br><br>
+
+
+
+
+<!-- COMIENZO DEL FOOTER -->
+        <footer id="footer">
+           <div class="container py-5 text-warning">
+            <div class="row py-3">
+              
+              <div class="col-xl-6 col-md-12 py-3">
+                <h4 class="text-center ">About me</h4>
+                <h5 class="text-center text-info"><a href="https://github.com/alfonsoJBR"><i class="fa fa-github" aria-hidden="true"></i> Alfonso Jesús Bravo Romo </a></h5>
+                <h5 class="text-center text-info"><a href="mailto:alfonsojesus.bravo.fp@iescampanillas.com"><i class="fa fa-envelope" aria-hidden="true"></i> E-mail </a></h5>
+                
+              </div>
+              <div class="col-xl-6 col-md-12 py-3">
+                <h4 class="text-center ">About IES Campanillas</h4>
+                <h5 class="text-center"><a href="https://fp.iescampanillas.com/"><i class="fa fa-code-fork" aria-hidden="true"></i> Web Page </a></h5>
+                <h5 class="text-center"><a href="https://github.com/IESCampanillas/indice-fp-ies-campanillas"><i class="fa fa-github" aria-hidden="true"></i> GitHub </a></h5>
+                <h5 class="text-center"><a href="https://twitter.com/fpiescampa"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter </a></h5>
+              </div>
+              <br>
+              <div><h4 class="text-center ">Web realizada como práctica para la asignatura LM en 05/2022</h4></div>
+            </div>
+          </div>
+        </footer>
+
+
+  
+
+    <script src=".js/misscripts.js"></script>
+
+
+    
+</body>
+</html>

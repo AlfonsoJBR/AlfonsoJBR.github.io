@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/fondo.jpg);
+    background-repeat: repeat;
+    background-color: #cccccc;
+  }
+
+
+/****** estilo propio  ******/
+
+.separator {border-bottom: solid 4px;
+            border-color: #e0934b;}
+
+/* Fuentes descargadas del "dafont.com" */
+
+@font-face {
+    font-family: titulo ;
+    src: url("../fonts/adventure/Adventure.otf");
+    }
+
+.mifuentetitulo {font-family: titulo;} 
+
+@font-face {
+    font-family: texto ;
+    src: url("../fonts/gosmick_sans/GosmickSans.ttf");
+    }
+
+.mifuentetexto {font-family: texto;}
+
+@font-face {
+    font-family: texto2 ;
+    src: url("../fonts/dk_the_cats_whiskers/DK\ The\ Cats\ Whiskers.otf");
+    }
+
+.mifuentetexto2 {font-family: texto2;}
+
+/* Color de la fuente */
+
+.mirojo {
+    color: rgba(240, 239, 230, 0.907);
+}
+/* Primera letra en mayúsculas y diferente color */
+#autor p::first-letter {font-size: 1.8em; 
+        color:#e0934b ;}
+
+ #personaje p::first-letter {font-size: 1.8em;
+        color:#d81616 ;}

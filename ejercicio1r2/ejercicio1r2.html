@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de cadenas || Palíndromos- Ejercicio 6 Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--Fon Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <!-- Hoja de estilo propio-->
+        <link href="../style/style.css" rel="stylesheet"></link>
+</head>
+<body >
+          
+      <div  class="container" id="centro" ><!-- container para usar grid-->
+              <button onclick="cambioColor('parpar1','black')">Modo Dark</button>
+              <button onclick="cambioColor('parpar1','blue')">Modo Pastel</button>
+              
+        <div class="row"  ><!-- row para usar grid -->
+          <p> </p><br><p> </p><br><p> </p><br>
+          
+          <!-- Cuadro de texto-->    
+          <div   id="parpar1" class="col-sm-10 col-md-8 col-lg-6 mx-auto border border-primary  mifuentetexto" ><!-- para distribuir espacio para todos los campos igual-->
+
+
+              <h2 class="text-center my-4">¡Palíndromo Si o no!  <a data-bs-toggle="modal" data-bs-target="#leermas1" class="btn btn-warning"><i class="fa fa-comment" aria-hidden="true"></i></a></h2>   
+              
+              
+
+          <div class="mb-3" >
+              
+              <input type="text" class="form-control" id="cadena" placeholder="introduce una cadena" required>
+          </div>
+
+              <button id="palindromo" class="btn btn-warning mb-3" >Comprobamos!</button>
+              <p id="respuesta"></p>
+          </div>
+
+          
+        </div>
+              
+            
+        <p> </p><br><p> </p><p> </p><br><p> </p><br><p> </p><p> </p><br><p> </p><p> </p><br><p> </p><br><p> </p><p> </p><br><p> </p><p> </p><br><p> </p><br><p> </p>
+    </div>
+          
+
+<!-- Modal #detalle ejercicio -->
+      <div class="modal fade" id="leermas1" tabindex="-1" aria-labelledby="leermas1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="leermas1">Ejercicio número 1 de la 2º relación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  
+                <p>Modifica el ejercicio que quieras del portfolio realizado en la relación anterior, para 
+                  añadirle dos botones que, al ser pulsados, cambien la gama cromática de la presentación:</p>
+                  <p> al modo dark (fondo negro, texto claro, buen contraste de botones y otros elementos 
+                  de la interfaz)</p>
+                  <p> a una paleta en tonos pastel (elije una paleta que tenga buena combinación y buen 
+                  contraste</p>
+                  <p>Utiliza el principio DRY para no repetir código javascrip</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Fin de contenido ventan modal sobre ejercicio-->
+
+    <script src="../ejercicio1r2/ejercicio1r2.js"></script>
+   
+</body>
+</html>
